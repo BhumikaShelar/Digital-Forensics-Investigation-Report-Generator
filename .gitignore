@@ -38,9 +38,11 @@ sample_evidence_disk.dd
 *.vmem
 *.pcap
 
-# Generated Export Files & PDF Reports
-exports/
-reports/
+# Generated Export Files & PDF Reports (Keep directory structure via .gitkeep)
+exports/*
+!exports/.gitkeep
+reports/*
+!reports/.gitkeep
 *.pdf
 
 # Python Bytecode & Cache
