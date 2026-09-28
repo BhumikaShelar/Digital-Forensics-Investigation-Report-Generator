@@ -86,8 +86,3 @@ venv.bak/
 *.swp
 *.swo
 .DS_Store
-
-# AI Assistant & IDE Agents Metadata
-.claude/
-.agents/
-.antigravity/
